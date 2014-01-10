@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSRViewController : UIViewController
+@interface JSRMainViewController : UIViewController
 
 @end

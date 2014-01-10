@@ -15,13 +15,15 @@
 		9FEE6B5518803DF3009D7206 /* JSRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE6B5418803DF3009D7206 /* JSRAppDelegate.m */; };
 		9FEE6B5818803DF3009D7206 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE6B5618803DF3009D7206 /* Main_iPhone.storyboard */; };
 		9FEE6B5B18803DF3009D7206 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE6B5918803DF3009D7206 /* Main_iPad.storyboard */; };
-		9FEE6B5E18803DF3009D7206 /* JSRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE6B5D18803DF3009D7206 /* JSRViewController.m */; };
+		9FEE6B5E18803DF3009D7206 /* JSRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE6B5D18803DF3009D7206 /* JSRMainViewController.m */; };
 		9FEE6B6018803DF3009D7206 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE6B5F18803DF3009D7206 /* Images.xcassets */; };
 		9FEE6B6718803DF3009D7206 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE6B6618803DF3009D7206 /* XCTest.framework */; };
 		9FEE6B6818803DF3009D7206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE6B4418803DF3009D7206 /* Foundation.framework */; };
 		9FEE6B6918803DF3009D7206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE6B4818803DF3009D7206 /* UIKit.framework */; };
 		9FEE6B7118803DF3009D7206 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE6B6F18803DF3009D7206 /* InfoPlist.strings */; };
 		9FEE6B7318803DF3009D7206 /* RedexpertsTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE6B7218803DF3009D7206 /* RedexpertsTaskTests.m */; };
+		9FEE6B7D18804008009D7206 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE6B7C18804008009D7206 /* MapKit.framework */; };
+		9FEE6B8018804BA2009D7206 /* JSRMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE6B7F18804BA2009D7206 /* JSRMapAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +49,17 @@
 		9FEE6B5418803DF3009D7206 /* JSRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSRAppDelegate.m; sourceTree = "<group>"; };
 		9FEE6B5718803DF3009D7206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		9FEE6B5A18803DF3009D7206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		9FEE6B5C18803DF3009D7206 /* JSRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSRViewController.h; sourceTree = "<group>"; };
-		9FEE6B5D18803DF3009D7206 /* JSRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSRViewController.m; sourceTree = "<group>"; };
+		9FEE6B5C18803DF3009D7206 /* JSRMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSRMainViewController.h; sourceTree = "<group>"; };
+		9FEE6B5D18803DF3009D7206 /* JSRMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSRMainViewController.m; sourceTree = "<group>"; };
 		9FEE6B5F18803DF3009D7206 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9FEE6B6518803DF3009D7206 /* RedexpertsTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedexpertsTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEE6B6618803DF3009D7206 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9FEE6B6E18803DF3009D7206 /* RedexpertsTaskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedexpertsTaskTests-Info.plist"; sourceTree = "<group>"; };
 		9FEE6B7018803DF3009D7206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FEE6B7218803DF3009D7206 /* RedexpertsTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedexpertsTaskTests.m; sourceTree = "<group>"; };
+		9FEE6B7C18804008009D7206 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9FEE6B7E18804BA2009D7206 /* JSRMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRMapAnnotation.h; sourceTree = "<group>"; };
+		9FEE6B7F18804BA2009D7206 /* JSRMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRMapAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,7 @@
 			files = (
 				9FEE6B4718803DF3009D7206 /* CoreGraphics.framework in Frameworks */,
 				9FEE6B4918803DF3009D7206 /* UIKit.framework in Frameworks */,
+				9FEE6B7D18804008009D7206 /* MapKit.framework in Frameworks */,
 				9FEE6B4518803DF3009D7206 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +109,7 @@
 		9FEE6B4318803DF3009D7206 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FEE6B7C18804008009D7206 /* MapKit.framework */,
 				9FEE6B4418803DF3009D7206 /* Foundation.framework */,
 				9FEE6B4618803DF3009D7206 /* CoreGraphics.framework */,
 				9FEE6B4818803DF3009D7206 /* UIKit.framework */,
@@ -114,13 +121,8 @@
 		9FEE6B4A18803DF3009D7206 /* RedexpertsTask */ = {
 			isa = PBXGroup;
 			children = (
-				9FEE6B5318803DF3009D7206 /* JSRAppDelegate.h */,
-				9FEE6B5418803DF3009D7206 /* JSRAppDelegate.m */,
-				9FEE6B5618803DF3009D7206 /* Main_iPhone.storyboard */,
-				9FEE6B5918803DF3009D7206 /* Main_iPad.storyboard */,
-				9FEE6B5C18803DF3009D7206 /* JSRViewController.h */,
-				9FEE6B5D18803DF3009D7206 /* JSRViewController.m */,
-				9FEE6B5F18803DF3009D7206 /* Images.xcassets */,
+				9FEE6B8118806A23009D7206 /* Model */,
+				9FEE6B8218806A2C009D7206 /* Controllers */,
 				9FEE6B4B18803DF3009D7206 /* Supporting Files */,
 			);
 			path = RedexpertsTask;
@@ -130,6 +132,11 @@
 			isa = PBXGroup;
 			children = (
 				9FEE6B4C18803DF3009D7206 /* RedexpertsTask-Info.plist */,
+				9FEE6B5418803DF3009D7206 /* JSRAppDelegate.m */,
+				9FEE6B5318803DF3009D7206 /* JSRAppDelegate.h */,
+				9FEE6B5618803DF3009D7206 /* Main_iPhone.storyboard */,
+				9FEE6B5918803DF3009D7206 /* Main_iPad.storyboard */,
+				9FEE6B5F18803DF3009D7206 /* Images.xcassets */,
 				9FEE6B4D18803DF3009D7206 /* InfoPlist.strings */,
 				9FEE6B5018803DF3009D7206 /* main.m */,
 				9FEE6B5218803DF3009D7206 /* RedexpertsTask-Prefix.pch */,
@@ -153,6 +160,24 @@
 				9FEE6B6F18803DF3009D7206 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FEE6B8118806A23009D7206 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE6B7E18804BA2009D7206 /* JSRMapAnnotation.h */,
+				9FEE6B7F18804BA2009D7206 /* JSRMapAnnotation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9FEE6B8218806A2C009D7206 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE6B5C18803DF3009D7206 /* JSRMainViewController.h */,
+				9FEE6B5D18803DF3009D7206 /* JSRMainViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +228,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jan Skommer";
 				TargetAttributes = {
+					9FEE6B4018803DF2009D7206 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					9FEE6B6418803DF3009D7206 = {
 						TestTargetID = 9FEE6B4018803DF2009D7206;
 					};
@@ -254,7 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FEE6B5E18803DF3009D7206 /* JSRViewController.m in Sources */,
+				9FEE6B5E18803DF3009D7206 /* JSRMainViewController.m in Sources */,
+				9FEE6B8018804BA2009D7206 /* JSRMapAnnotation.m in Sources */,
 				9FEE6B5518803DF3009D7206 /* JSRAppDelegate.m in Sources */,
 				9FEE6B5118803DF3009D7206 /* main.m in Sources */,
 			);
